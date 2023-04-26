@@ -37,12 +37,23 @@
   </head>
 
   <body>
-    <h1>Video</h1>
+    <h1>Product Details Page</h1>
 
     <!-- 💁 Include both scripts below to support all browsers! -->
 
     <!-- Loads <model-viewer> for modern browsers: -->
-    <!-- <source src="YOUR_VIDEO.mp4" type="video/mp4"> -->
+
+    <model-viewer
+      src="./assets/binoculars.glb"
+      ios-src="./assets/binoculars.usdz"
+      alt="Time Travel Binoculars"
+      shadow-intensity="1"
+      camera-controls
+      auto-rotate
+      ar
+    >
+    </model-viewer>
+
     <script
       type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
