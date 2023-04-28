@@ -1,102 +1,106 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <title>WebAR Sagarika</title>
 
-    <meta charset="utf-8" />
+<head>
+  <title>WebAR Sagarika</title>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="stylesheet" href="./styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- The following libraries and polyfills are recommended to maximize browser support -->
+  <link rel="stylesheet" href="./styles.css" />
 
-    <!-- NOTE: you must adjust the paths as appropriate for your project -->
+  <!-- The following libraries and polyfills are recommended to maximize browser support -->
 
-    <!-- 🚨 REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
+  <!-- NOTE: you must adjust the paths as appropriate for your project -->
 
-    <!--     <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> -->
+  <!-- 🚨 REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
 
-    <!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
+  <!--     <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> -->
 
-    <!--     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script> -->
+  <!-- 💁 OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
 
-    <!-- 💁 OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
+  <!--     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script> -->
 
-    <!--     <script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.js"></script> -->
+  <!-- 💁 OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
 
-    <!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+  <!--     <script src="https://unpkg.com/resize-observer-polyfill@1.5.0/dist/ResizeObserver.js"></script> -->
 
-    <script
-      src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js"
-      defer
-    ></script>
-  </head>
+  <!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
 
-  <body>
-    <h1 style="color:greenyellow">D i g i T e c h </h1>
-    <h2> Latest tech made easy </h2>
-    <hr style="border-width:70%;opacity:20%">
+  <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+</head>
+
+<body>
+  <a href="TBYB.html" style="text-decoration: none;">
+    <h1 style="color:greenyellow"> D i g i T e c h </h1>
+  </a>
+  <h2> Latest tech made easy </h2>
+  <hr style="border-width:70%;opacity:20%">
+  <br>
+
+  <model-viewer src="./assets/binoculars.glb" ios-src="./assets/binoculars.usdz" alt="Time Travel Binoculars"
+    shadow-intensity="1" camera-controls auto-rotate ar>
+  </model-viewer>
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <!-- Loads <model-viewer> for old browsers like IE11: -->
+
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+  </script>
+
+  <section class="namecost">
+    <span>
+      <h2 style="text-align: left; color: greenyellow; margin-top: 1em; font-size: 18px;">Time Travel Binoculars</h2>
+      <br>
+      <span class="dot" ; style="background-color: aquamarine;"></span>
+      <span class="dot" ; style="background-color: rgb(150, 150, 150);"></span>
+      <span class="dot" ; style="background-color: red;"></span>
+    </span>
+    <span>
+      <h2 style="color:rgb(255, 255, 255); margin-top: 1em; text-align: right;">$199.99</h2>
+      <button>Add to Cart</button>
+    </span>
+  </section>
+
+  <p style="line-height: 1.5em; margin-top: 1em; margin-bottom: 2em; font-size: 16px;">Step into a world of adventure
+    with our time travel binoculars, capable of transporting you through time and space with the touch of a button.
+    <br> <br>
+    Explore the past, present, and future like never before.
+  </p>
+
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <!-- Loads <model-viewer> for old browsers like IE11: -->
+
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+  <hr style="border-width:10%;opacity:60%">
+
+  <footer>
+    Created by <a href="https://www.imkatieim.com/" target="_blank" style="color: greenyellow;">Katie Im</a> and <a
+      href="https://www.sagarikakonanuru.com/" style="color: greenyellow;"> Sagarika Konanuru</a></span> in NYC. <br>
     <br>
-
-    <model-viewer
-      src="./assets/binoculars.glb"
-      ios-src="./assets/binoculars.usdz"
-      alt="Time Travel Binoculars"
-      shadow-intensity="1"
-      camera-controls
-      auto-rotate
-      ar
-    >
-    </model-viewer>
-
-    <script
-      type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
-    ></script>
-
-    <!-- Loads <model-viewer> for old browsers like IE11: -->
-
-    <script
-      nomodule
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
-    ></script>
-    <section class="namecost">
-      <span>
-        <h2 style="text-align: left; color: greenyellow; margin-top: 1em;">Time Travel Binoculars</h2>
-        <span class="dot"; style="background-color: aquamarine;"></span>
-        <span class="dot"; style="background-color: rgb(150, 150, 150);"></span>
-        <span class="dot"; style="background-color: red;"></span>
-      </span>
-      <h2 style="color:rgb(255, 255, 255); margin-top: 1em;">$199.99</h2>
-    </section>
-
-    <p style="line-height: 1.5em; margin-bottom: 2em; font-size: 16px;">Step into a world of adventure with our time travel binoculars, capable of transporting you through time and space with the touch of a button. 
-      <br> <br>
-      Explore the past, present, and future like never before.</p>
-
-
-    <script
-      type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
-    ></script>
-
-    <!-- Loads <model-viewer> for old browsers like IE11: -->
-
-    <script
-      nomodule
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
-    ></script>
-
-    <hr style="border-width:10%;opacity:60%">
-    <footer style ="font-family:'Roboto', sans-serif; font-size: 14px; color: white; line-height: 1.5em;">
-        Created by Katie Im and Sagarika Konanuru in NYC. <br> <br>
-        Website created as part the 'Speculative Design' class at Pratt Insitute's MS in Information Experience Design program with Prof. Nancy Smith. <br> <br>
+    Website created as part the 'Speculative Design' class at Pratt Insitute's MS in Information Experience Design
+    program with Prof. Nancy Smith. <br> <br>
+  </footer>
+  <section class="attribution" style="margin-left: 0em;">
+    <span>
+      <footer>
         Demo by <a href="https://www.antdevelopers.com" target="_blank">ANT Developers</a><br>
         Models by <a href="https://sketchfab.com/" target="_blank">SketchFab</a>
-    </footer>
-  </body>
+      </footer>
+    </span>
+    <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+      <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+      <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+    </a>
+  </section>
+</body>
+
 </html>
