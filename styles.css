@@ -12,7 +12,7 @@ h1 {
   background: -webkit-linear-gradient(45deg, #ff63f5, aqua);
   background-clip: border-box;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   text-align: center;
   font-family: 'Helvetica Neue', sans-serif;
   margin-bottom: 0.25em;
