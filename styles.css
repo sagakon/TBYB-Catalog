@@ -9,7 +9,9 @@ body {
 
 h1 {
   font-size: 32px;
-  color: white;
+  background: -webkit-linear-gradient(45deg, #ff63f5, aqua);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
   font-family: 'Helvetica Neue', sans-serif;
   margin-bottom: 0.25em;
@@ -25,7 +27,7 @@ h2 {
 }
 
 h3 {
-  color: greenyellow;
+  color: #86d3ff;
   font-size: 18px;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -148,7 +150,7 @@ footer {
 
 button {
   background-color: #000000;
-  border: 2px solid #4CAF50;
+  border: 2px solid #86d3ff;
   border-radius: 8px;
   color: white;
   padding: 12px 16px;
